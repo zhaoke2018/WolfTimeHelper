@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "WolfTimeHelper",  
+    "description": "Help hourly TA to click in and out automatically",  
+    "version": "1.0",    
+    "browser_action": { 
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"  
+    },
+    "background":{
+    	"scripts": ["background.js"],
+    	"persistent": false
+    },
+    "permissions": ["tabs",
+    	"<all_urls>"
+    	]
+}
