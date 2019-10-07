@@ -1,5 +1,5 @@
 # WolfTimeHelper
-Help hourly TA to click in and out automatically
+A Chrome Extension that helps hourly TA(at NC State) to click in and out automatically
 
 ## Note
 1. Make sure you can login Mypack(or Wolfware) without 2FA(two-factor authentication), which means you have chosen "Remember me for 14 days" in Duo Authentication.
