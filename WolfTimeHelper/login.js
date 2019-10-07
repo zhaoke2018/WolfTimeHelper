@@ -3,4 +3,11 @@ function logIn() {
 	activityTab.click();
 }
 
-logIn();
+function autoFill() {
+    document.getElementById('username').value = "unityID";
+    document.getElementById('password').value = "Password";
+    logIn();
+}
+
+autoFill();
+

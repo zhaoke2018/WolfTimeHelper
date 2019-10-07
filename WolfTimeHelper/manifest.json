@@ -11,6 +11,7 @@
     	"scripts": ["background.js"],
     	"persistent": false
     },
+
     "permissions": ["tabs",
     	"<all_urls>",
         "notifications"
